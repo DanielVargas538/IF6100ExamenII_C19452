@@ -101,6 +101,6 @@ public class UnitTest {
     
     public void testNegMultiplicacion() {
        OperacionAritmetica multiplicacion = new OperacionAritmetica( new Multiplicacion() );
-       assertEquals(multiplicacion.procesar(8,6), -1);
+       assertEquals(multiplicacion.procesar(-8,6), -1);
     }
 }
